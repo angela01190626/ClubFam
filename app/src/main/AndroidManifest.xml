@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.clubfam"
+    tools:ignore="GoogleAppIndexingWarning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ui$Manage$ManageActivity">
+
+        </activity>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="ClubFAM">
+
+        </activity>
+        <activity
+            android:name=".ui.createaccount.CreateAccountActivity"
+            android:label="Create Account">
+
+        </activity>
+        <activity
+            android:name=".ui.userdata.UserDataActivity"
+            android:label="About You">
+
+        </activity>
+        <activity
+            android:name=".ui.preferences.PreferencesActivity"
+            android:label="Preferences">
+
+        </activity>
+        <activity
+            android:name=".ui.contactdevelopers.ContactDevelopersActivity"
+            android:label="Contact Developers">
+
+        </activity>
+
+        <activity android:name=".ui.myclubs.MyClubManage"
+            android:label="manage_club">
+
+        </activity>
+
+        <activity android:name=".ui.home.PostActivity"
+                  android:label="Post">
+
+        </activity>
+
+    </application>
+
+</manifest>

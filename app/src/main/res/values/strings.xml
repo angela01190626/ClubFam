@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Club FAM</string>
+    <string name="title_home">Home</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_myclubs">My Clubs</string>
+    <string name="title_account">Account</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- Strings related to settings menu -->
+    <string name="action_contact">Contact Developers</string>
+    <string name="action_preferences">Preferences</string>
+    <!-- Important club IDs -->
+    <string name="basketball_Id">1</string>
+    <string name="bowling_Id">2</string>
+    <string name="skiing_Id">3</string>
+    <!-- Important club Names -->
+    <string name="basketball_name">Basketball club</string>
+    <string name="bowling_name">University Bowlers</string>
+    <string name="skiing_name">Ski and Snowboarding club</string>
+</resources>
